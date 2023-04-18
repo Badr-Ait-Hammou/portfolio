@@ -41,7 +41,7 @@ export default function Navbar() {
 
     ];
     const style = {
-        backgroundColor: 'rgba(252,248,248,0.88)',
+        backgroundColor: 'rgb(234,230,230)',
         color: '#230202',
         borderRadius:"20px",
         justifyContent: 'left'
@@ -53,7 +53,7 @@ export default function Navbar() {
         <img
             alt="logo"
             src={logo}
-            height="20"
+
             width="50"
             //className="p-mr-2"
             className="mr-2"

@@ -51,7 +51,7 @@ export default function Home() {
             <main className=" bg-white px-10  md:px-20  mt-5 " >
                 <section className="min-h-screen">
 
-                    <h2 className="text-5xl  text-center mx-auto p-10 py-2 text-blue-400 font-burtons   md:text-5xl">
+                    <h2 className="text-5xl  text-center mx-auto p-10 py-2 text-cyan-950 font-burtons md:text-5xl">
                         Badr Ait Hammou
                     </h2>
                     <h3 className="text-2xl  text-center mx-auto p-10 py-1 md:text-1xl">
@@ -63,7 +63,7 @@ export default function Home() {
 
                     <div className="text-center mx-auto p-10 py-1">
 
-                        <div className="text-5xl flex justify-center gap-16 py-5 dark:text-gray-400">
+                        <div className="text-5xl flex justify-center gap-16 py-5 ">
 
                             <a href={mailToLink}>
                                 <AiFillMail className="text-red-600  hover:text-red-400" />
