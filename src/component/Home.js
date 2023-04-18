@@ -92,18 +92,7 @@ export default function Home() {
                                 />
                             </li>
                         </ul>
-                        <ul className="flex items-center">
 
-                            <li>
-                                <a
-                                    className="bg-gradient-to-r from-cyan-400 text- to-blue-500 text-white px-4 py-2 border-none rounded-md ml-8" href="#"
-
-                                >
-                                    Resume
-                                </a>
-                            </li>
-
-                        </ul>
                     </nav>
                     <h2 className="text-5xl  text-center mx-auto p-10 py-2 text-blue-400 font-burtons dark:text-blue-400 md:text-5xl">
                         Badr Ait Hammou
