@@ -9,5 +9,13 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="flowbite" level="application" />
+    <orderEntry type="library" name="react-transition-group" level="application" />
+    <orderEntry type="library" name="react" level="application" />
+    <orderEntry type="library" name="react-dom" level="application" />
+    <orderEntry type="library" name="primeflex" level="application" />
+    <orderEntry type="library" name="primereact" level="application" />
+    <orderEntry type="library" name="@babel/standalone" level="application" />
+    <orderEntry type="library" name="primeicons" level="application" />
   </component>
 </module>
