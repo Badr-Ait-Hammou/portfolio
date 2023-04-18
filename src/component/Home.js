@@ -13,6 +13,7 @@ import 'swiper/css';
 import profile from "../images/personnalphoto.jpg"
 
 import { Card } from 'primereact/card';
+import React from "react";
 
 
 export default function Home() {
@@ -80,9 +81,9 @@ export default function Home() {
                 </section>
                 <Card  >
                     <p className="text-center font-medium " >
-                        I am highly interested in software development and learning new technologies.
-                        I have strong skills in programming and problem-solving,
-                        and I have participated in numerous software development projects as a part of a team.
+                        I am highly interested in <span className="text-teal-500"> software development </span> and learning new technologies.
+                        I have strong skills in programming and  <span className="text-teal-500"> problem-solving </span>,
+                        and I have  <span className="text-teal-500"> participated </span> in numerous software development projects as a part of a team.
                     </p>
                 </Card>
             </main>

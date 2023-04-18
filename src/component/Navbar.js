@@ -23,9 +23,9 @@ export default function Navbar() {
             command: () => {navigate('/education') }
         },
         {
-            label: 'Experience',
+            label: 'Certifications',
             icon: 'pi pi-fw pi-user',
-            command: () => {navigate('/experience') }
+            command: () => {navigate('/certification') }
         },
         {
             label: 'Projects',
@@ -44,7 +44,7 @@ export default function Navbar() {
         }
     ];
     const style = {
-        backgroundColor: 'rgb(234,230,230)',
+        backgroundColor: 'rgba(245,243,246,0.88)',
         color: '#230202',
         borderRadius:"20px",
         justifyContent: 'left'
