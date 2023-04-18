@@ -5,11 +5,9 @@ import {
     AiFillMail,
 } from "react-icons/ai";
 
-import { BsMoonFill } from "react-icons/bs";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore,{Autoplay} from 'swiper';
 import 'swiper/css';
-import { useState } from "react";
 
 
 import profile from "../images/personnalphoto.jpg"

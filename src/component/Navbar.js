@@ -1,5 +1,7 @@
 import { Dialog } from 'primereact/dialog';
 import { Button } from 'primereact/button';
+import { NavLink } from 'react-router-dom';
+import {useNavigate} from "react-router-dom";
 
 import logo from "../images/logo.svg"
 import React from 'react';
@@ -7,38 +9,39 @@ import { Menubar } from 'primereact/menubar';
 import { InputText } from 'primereact/inputtext';
 
 export default function Navbar() {
-
+    const navigate = useNavigate();
 
     const items = [
         {
             label: 'About me',
-            icon:'pi pi-fw pi-user'
-
+            icon: 'pi pi-fw pi-user',
+            command: () => {navigate('/') }
         },
         {
             label: 'Education',
-            icon:'pi pi-fw pi-book'
-
+            icon: 'pi pi-fw pi-book',
+            command: () => {navigate('/education') }
         },
         {
             label: 'Experience',
-            icon:'pi pi-fw pi-user'
-
+            icon: 'pi pi-fw pi-user',
+            command: () => {navigate('/experience') }
         },
         {
             label: 'Projects',
-
+            icon: 'pi pi-fw pi-user',
+            command: () => {navigate('/projects') }
         },
         {
             label: 'Resume',
-
-} ,
+            icon: 'pi pi-fw pi-user',
+            command: () => {navigate('/resume') }
+        },
         {
             label: 'Contact',
-            icon:'pi pi-fw pi-mobile'
-
-}
-
+            icon: 'pi pi-fw pi-mobile',
+            command: () => {navigate('/contact') }
+        }
     ];
     const style = {
         backgroundColor: 'rgb(234,230,230)',

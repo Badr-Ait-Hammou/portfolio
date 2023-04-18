@@ -5,15 +5,22 @@ import "primeicons/primeicons.css";
 import Footer from "./component/Footer"
 import Home from "./component/Home"
 import Navbar from "./component/Navbar"
-import {Router, Routes} from "react-router";
+import Education from "./component/Education"
+import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 function App() {
   return (
-    <div className="App">
+         <div className="App">
+             <Router>
+                 <Navbar/>
+                 <Routes>
+                     <Route exact path="/" element={<Home/>}/>
+                     <Route exact path="/education" element={<Education/>}/>
 
-    <Navbar/>
-    <Home/>
-        <Footer/>
+                 </Routes>
+                 <Footer/>
+             </Router>
     </div>
+
   );
 }
 

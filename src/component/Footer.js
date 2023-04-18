@@ -9,8 +9,12 @@ import { Button } from 'primereact/button';
 import logo from "../images/whitelogo.svg"
 
 
-
 export default function Footer() {
+
+
+
+
+
     return (
         <div className="footer-dark" style={{marginTop:"50px"}}>
             <footer>
