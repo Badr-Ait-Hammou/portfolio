@@ -7,6 +7,7 @@ import Home from "./component/Home"
 import Navbar from "./component/Navbar"
 import Education from "./component/Education"
 import Certification from "./component/Certifications"
+import Projects from "./component/Projects"
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
                      <Route exact path="/" element={<Home/>}/>
                      <Route exact path="/education" element={<Education/>}/>
                      <Route exact path="/certification" element={<Certification/>}/>
+                     <Route exact path="/projects" element={<Projects/>}/>
 
                  </Routes>
                  <Footer/>
