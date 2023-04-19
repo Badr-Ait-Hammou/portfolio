@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import {useNavigate} from "react-router-dom";
 
 import logo from "../images/logo.svg"
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Menubar } from 'primereact/menubar';
 import { InputText } from 'primereact/inputtext';
 
@@ -55,8 +55,7 @@ export default function Navbar() {
         justifyContent: 'left'
     };
 
-  //  const start = <img alt="logo" src="showcase/images/logo.png" onError={(e) => e.target.src='https://www.primefaces.org/wp-content/uploads/2020/05/placeholders.png'} height="100" className="mr-2"></img>;
-   // const end = <InputText placeholder="Search" type="text" />;
+
     const end = (
         <img
             alt="logo"
@@ -67,6 +66,17 @@ export default function Navbar() {
             className="mr-2"
         />
     );
+
+    useEffect(() => {
+        const handlePopstate = () => {
+            navigate('/');
+        };
+        window.addEventListener('popstate', handlePopstate);
+        return () => {
+            window.removeEventListener('popstate', handlePopstate);
+        };
+    }, [navigate]);
+
     return (
         <div>
             <div className="card">
