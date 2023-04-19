@@ -24,17 +24,22 @@ export default function Navbar() {
         },
         {
             label: 'Certifications',
-            icon: 'pi pi-fw pi-user',
+            icon: 'pi pi-fw pi-verified',
             command: () => {navigate('/certification') }
         },
         {
             label: 'Projects',
-            icon: 'pi pi-fw pi-user',
+            icon: 'pi pi-fw pi-slack',
             command: () => {navigate('/projects') }
         },
         {
+            label: 'Experience',
+            icon: 'pi pi-spin pi-spinner',
+            command: () => {navigate('/experience') }
+        },
+        {
             label: 'Resume',
-            icon: 'pi pi-fw pi-user',
+            icon: 'pi pi-fw pi-print',
             command: () => {navigate('/resume') }
         },
         {

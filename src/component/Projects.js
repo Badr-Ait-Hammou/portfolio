@@ -61,7 +61,7 @@ export default  function Projects(){
             <div className="flex flex-wrap mx-4">
                 <div className="w-full md:w-1/3 px-4 mt-5">
                     <Card
-                        title="Products Page"
+                        title="Para pharmacy App"
                         subTitle="C#"
                         header={<div className="px-4 pt-4 " >{csharproduit}</div>}
                         className="md:w-25rem "

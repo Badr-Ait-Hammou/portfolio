@@ -8,6 +8,7 @@ import Navbar from "./component/Navbar"
 import Education from "./component/Education"
 import Certification from "./component/Certifications"
 import Projects from "./component/Projects"
+import Experience from "./component/Experience"
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
                      <Route exact path="/education" element={<Education/>}/>
                      <Route exact path="/certification" element={<Certification/>}/>
                      <Route exact path="/projects" element={<Projects/>}/>
+                     <Route exact path="/experience" element={<Experience/>}/>
 
                  </Routes>
                  <Footer/>
