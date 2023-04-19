@@ -1,12 +1,9 @@
-import { Dialog } from 'primereact/dialog';
-import { Button } from 'primereact/button';
-import { NavLink } from 'react-router-dom';
+
 import {useNavigate} from "react-router-dom";
 
 import logo from "../images/logo.svg"
 import React, {useEffect} from 'react';
 import { Menubar } from 'primereact/menubar';
-import { InputText } from 'primereact/inputtext';
 
 export default function Navbar() {
     const navigate = useNavigate();

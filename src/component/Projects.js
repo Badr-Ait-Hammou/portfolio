@@ -15,7 +15,7 @@ export default  function Projects(){
     const nanoprod = <img alt="logo" src={nanoproduit}  height="10"  className="rounded-lg"></img>;
     const csharpac = <img alt="logo" src={csharpacc}  height="10"  className="rounded-lg"></img>;
     const csharproduit = <img alt="logo" src={csharpproduit}  height="10"  className="rounded-lg"></img>;
-    const poked = <img alt="logo" src={pokedex}  height="10"  className="rounded-lg"></img>;
+    const poked = <img alt="logo" src={pokedex}   className="rounded-lg"></img>;
     const nanopro = <img alt="logo" src={nanopr}  height="10"  className="rounded-lg"></img>;
 
     return(
