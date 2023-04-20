@@ -36,14 +36,10 @@ export default function Navbar() {
         },
         {
             label: 'My Services',
-            icon: 'pi pi-spin pi-spinner',
+            icon: 'pi pi-bolt',
             command: () => {navigate('/services') }
         },
-        {
-            label: 'Resume',
-            icon: 'pi pi-fw pi-print',
-            command: () => {navigate('/resume') }
-        },
+
         {
             label: 'Contact',
             icon: 'pi pi-fw pi-mobile',
@@ -69,15 +65,7 @@ export default function Navbar() {
         />
     );
 
-    useEffect(() => {
-        const handlePopstate = () => {
-            navigate('/');
-        };
-        window.addEventListener('popstate', handlePopstate);
-        return () => {
-            window.removeEventListener('popstate', handlePopstate);
-        };
-    }, [navigate]);
+
 
     return (
         <div>
