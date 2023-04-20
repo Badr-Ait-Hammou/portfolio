@@ -3,47 +3,61 @@ import { Timeline } from 'primereact/timeline';
 import { Card } from 'primereact/card';
 import { Button } from 'primereact/button';
 import logo from "../images/logo.svg"
+import fst from "../images/fst.png";
+import emsi from "../images/emsi1.png";
 
 
 
 
 
 export default  function Experience(){
+return(
+    <div >
 
 
-    const events = [
-        { status: 'Stagaire Chez Nano_Planete', date: '15/10/2020 10:30', icon: 'pi pi-shopping-cart', color: '#9C27B0', image: 'game-controller.jpg' },
-        { status: 'Processing', date: '15/10/2020 14:00', icon: 'pi pi-cog', color: '#673AB7', image: 'game-controller.jpg' },
-        { status: 'Shipped', date: '15/10/2020 16:15', icon: 'pi pi-shopping-cart', color: '#FF9800' },
-    ];
+        <main className=" bg-white px-10  md:px-20  mt-5 " >
+            <section className="min-h-screen">
 
-    const customizedMarker = (item) => {
-        return (
-            <span className="flex w-2rem h-2rem align-items-center justify-content-center text-white border-circle z-1 shadow-1" style={{ backgroundColor: item.color }}>
-                <i className={item.icon}></i>
-            </span>
-        );
-    };
+                <div className="mt-5">
+                    <h3 className="text-4xl py-1  text-center  font-burtons mt-8 ">Experience:</h3>
 
-    const customizedContent = (item) => {
-        return (
-            <Card title={item.status} subTitle={item.date}  >
-                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-
-                { item.image &&
-
-                    <img alt="logo" src={logo} width="100px"  className="rounded-lg"></img>}
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt
-                    quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!</p>
-                <Button label="Read more" className="p-button-text"></Button>
                 </div>
-            </Card>
-        );
-    };
+                <div className="mt-5">
+                    <Card  >
+                        <div  className="font-extrabold" >
+                        <p>Final Course Project Internship (PFE)</p>
+                        </div>
+                        <div>
+                        <p className="mt-2 font-light">April 2022--Jun 2022</p>
+                        </div>
+                        <div  className="font-normal mt-2" >
+                            <p>Nano Planete -Marrakech</p>
+                                <p className="mt-2 font-semibold">Design and development of a web application for selling biomedical equipment and training courses. </p>
 
-    return (
-        <div className="card mt-5">
-            <Timeline value={events} align="alternate" className="customized-timeline" marker={customizedMarker} content={customizedContent} />
-        </div>
+                        </div>
+
+                    </Card>
+                </div>
+                <div className="mt-5">
+                    <Card  >
+                        <div  className="font-extrabold" >
+                            <p>Summer Course Internship </p>
+                        </div>
+                        <div>
+                            <p className="mt-2 font-light"> Jun 2022--August 2022</p>
+                        </div>
+                        <div  className="font-normal mt-2" >
+                            <p>ZSMART -Marrakech</p>
+                            <p className="mt-2 font-semibold"> Design and development of a desktop application for "stock management". </p>
+
+                        </div>
+
+                    </Card>
+                </div>
+
+            </section>
+
+        </main>
+    </div>
     );
 }

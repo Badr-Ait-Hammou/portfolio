@@ -9,6 +9,7 @@ import Education from "./component/Education"
 import Certification from "./component/Certifications"
 import Projects from "./component/Projects"
 import Experience from "./component/Experience"
+import MyServices from "./component/MyServices"
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
                      <Route exact path="/certification" element={<Certification/>}/>
                      <Route exact path="/projects" element={<Projects/>}/>
                      <Route exact path="/experience" element={<Experience/>}/>
+                     <Route exact path="/services" element={<MyServices/>}/>
 
                  </Routes>
                  <Footer/>

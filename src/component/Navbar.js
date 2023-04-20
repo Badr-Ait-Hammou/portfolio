@@ -35,6 +35,11 @@ export default function Navbar() {
             command: () => {navigate('/experience') }
         },
         {
+            label: 'My Services',
+            icon: 'pi pi-spin pi-spinner',
+            command: () => {navigate('/services') }
+        },
+        {
             label: 'Resume',
             icon: 'pi pi-fw pi-print',
             command: () => {navigate('/resume') }

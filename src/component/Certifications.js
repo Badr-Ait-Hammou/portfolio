@@ -27,11 +27,12 @@ export default function Certifications(){
 
             <div className="flex flex-wrap mx-4">
                 <div className="w-full md:w-1/3 px-4 mt-5">
+
                     <Card
                         title="Full Stack Web Development with React"
                         subTitle="Certificate of Specialization"
-                        header={<div className="px-4 pt-4 " >{react}</div>}
-                        className="md:w-25rem "
+                        header={<div className="px-4 pt-4 " >{react}  </div>}
+                        className="md:w-25rem h-full"
                         style={{backgroundColor:'#F5F3F6E0'}}
                     >
                         <p className="m-0 justify-content-center">
@@ -109,7 +110,7 @@ export default function Certifications(){
                         title="Introduction to Cloud Computing "
                         subTitle="Course Certificate"
                         header={<div className="px-4 pt-4 " >{cloud}</div>}
-                        className="md:w-25rem"
+                        className="md:w-25rem h-full"
                         style={{backgroundColor:'#F5F3F6E0'}}
                     >
                         <p className="m-0">
