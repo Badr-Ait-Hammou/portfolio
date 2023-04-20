@@ -84,11 +84,10 @@ export default function Home() {
                         AIT HAMMOU Badr, a <span className="text-teal-500"> Software Engineering Student. </span> I have got my bachelor's degree from FST <span className="text-teal-500"> Sciences and technologies University </span>in 2022.
                         During my time at university, I specialized in computer science and gained a lot of <span className="text-teal-500"> skills and knowledge </span>  related to software development,
                         programming languages, data analysis, and much more.
-                        I'm really passionate about technology and how it can be used to solve complex problems. That's why I'm so excited to be continuing my education at <span className="text-teal-500"> EMSI </span> School, where I have just started pursuing  <span className="text-teal-500"> my software engineering degree </span> in 2023.
+                        I'm really passionate about technology and how it can be used to solve complex problems. That's why I'm so excited to be continuing my education at <span className="text-teal-500"> EMSI </span> School, where I have just started pursuing  <span className="text-teal-500"> my software engineering degree </span> in 2023.</p>
+                        <p className="text-center font-medium " >
                         Looking back, I feel really proud of my educational background and the skills I've developed along the way. I'm eager to explore different career paths in the industry and see where my journey in computer science takes me next!
-                        I am highly interested in <span className="text-teal-500"> software development </span> and learning new technologies.
-                        I have strong skills in programming and  <span className="text-teal-500"> problem-solving </span>,
-                        and I have  <span className="text-teal-500"> participated </span> in numerous software development projects as a part of a team.
+
                     </p>
                 </Card>
             </main>

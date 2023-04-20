@@ -40,11 +40,7 @@ export default function Navbar() {
             command: () => {navigate('/services') }
         },
 
-        {
-            label: 'Contact',
-            icon: 'pi pi-fw pi-mobile',
-            command: () => {navigate('/contact') }
-        }
+       
     ];
     const style = {
         backgroundColor: 'rgba(245,243,246,0.88)',
