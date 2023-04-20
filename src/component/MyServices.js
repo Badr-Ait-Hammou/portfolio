@@ -42,9 +42,9 @@ export default  function MyServices(){
                         <Card  className="h-full">
 
                             <p className="text-md py-2  leading-8 text-center text-gray-800 font-semibold ">
-                                Since the beginning of my journey as a software engineer and a designer,
+                                Since the beginning of my journey as a developer and a designer,
                                 I have done remote work for a lot of
-                                <span className="text-teal-500"> enterprises </span>
+                                <span className="text-teal-500"> Enterprises </span>
                                 ,and collaborated with talented people to develop performant applications.
                                 I offer a wide range of services, including brand design and programming.
                             </p>
