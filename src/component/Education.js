@@ -9,25 +9,20 @@ export default function Education() {
 
     return (
         <div >
-
-
             <main className=" bg-white px-10  md:px-20  mt-5 " >
                 <section className="min-h-screen">
 
                     <div className="mt-5">
                         <h3 className="text-4xl py-1  text-center  font-semibold ">Education:</h3>
                        <Card>
-
                         <p className="text-center font-medium mt-5" >
                             Thanks to self education and these two establishments, I have a strong educational background in computer science.
-
                         </p>
                        </Card>
                     </div>
                     <div className="mt-5">
                         <Card  >
                             <div  style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-
                             <img alt="logo" src={fst} height="20" width="80" className="p-mr-2"/>
                             </div>
                             <p className="text-center font-semibold mt-5" >
@@ -40,7 +35,6 @@ export default function Education() {
                     <div className="mt-5">
                         <Card  >
                             <div  style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-
                                 <img alt="logo" src={emsi} height="20" width="80" className="p-mr-2"/>
                             </div>
                             <p className="text-center font-semibold mt-5" >
@@ -55,8 +49,7 @@ export default function Education() {
                         </Card>
                     </div>
                     <div>
-                        <Card  className="mt-5" >
-
+                        <Card  className="mt-10" >
                             <p className="text-center font-medium mt-5" >
                                 Through both of these educational experiences,
                                 I have developed a strong analytical and problem-solving skills,
@@ -64,12 +57,9 @@ export default function Education() {
                             <p className="text-center font-medium mt-5" >
                                 which have been essential to my success in this field.
                             </p>
-
-
                         </Card>
                     </div>
                 </section>
-
             </main>
         </div>
     );

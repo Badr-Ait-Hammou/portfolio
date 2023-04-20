@@ -55,6 +55,23 @@ return(
                     </Card>
                 </div>
 
+                <div className="mt-5">
+                    <Card  >
+                        <div  className="font-extrabold" >
+                            <p>Summer Course Internship </p>
+                        </div>
+                        <div>
+                            <p className="mt-2 font-light"> July 2023--August 2023</p>
+                        </div>
+                        <div  className="font-normal mt-2" >
+                            <p>******</p>
+                            <p className="mt-2 font-semibold"> ***** </p>
+
+                        </div>
+
+                    </Card>
+                </div>
+
             </section>
 
         </main>
