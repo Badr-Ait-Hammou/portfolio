@@ -21,7 +21,7 @@ export default  function Projects(){
 
     return(
         <div>
-            <h3 className="text-4xl py-6  text-center  font-burtons ">Some Of My Projects:</h3>
+            <h3 className="text-4xl py-6  text-center  font-semibold ">Some Of My Projects:</h3>
 
             <div className="flex flex-wrap mx-4">
                 <div className="w-full md:w-1/3 px-4 mt-5">

@@ -15,7 +15,7 @@ export default function Education() {
                 <section className="min-h-screen">
 
                     <div className="mt-5">
-                        <h3 className="text-4xl py-1  text-center  font-burtons ">Education:</h3>
+                        <h3 className="text-4xl py-1  text-center  font-semibold ">Education:</h3>
                        <Card>
 
                         <p className="text-center font-medium mt-5" >

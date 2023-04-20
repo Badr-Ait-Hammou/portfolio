@@ -22,7 +22,7 @@ export default function Certifications(){
 
 
         <div>
-            <h3 className="text-4xl py-4 mt-7  text-center font-burtons ">Certifications:</h3>
+            <h3 className="text-4xl py-4 mt-5  text-center font-semibold ">Certifications:</h3>
 
 
             <div className="flex flex-wrap mx-4">

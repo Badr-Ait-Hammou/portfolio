@@ -50,8 +50,8 @@ export default function Home() {
             <main className=" bg-white px-10  md:px-20  mt-5 " >
                 <section className="min-h-screen">
 
-                    <h2 className="text-5xl  text-center mx-auto p-10 py-2 text-cyan-950 font-burtons md:text-5xl">
-                        Badr Ait Hammou
+                    <h2 className="text-5xl  text-center mx-auto p-10 py-2 text-cyan-950 font-semibold md:text-5xl">
+                         AIT HAMMOU Badr
                     </h2>
                     <h3 className="text-2xl  text-center mx-auto p-10 py-1 md:text-1xl">
                         Software Engineering Student

@@ -19,7 +19,7 @@ return(
             <section className="min-h-screen">
 
                 <div className="mt-5">
-                    <h3 className="text-4xl py-1  text-center  font-burtons mt-8 ">Experience:</h3>
+                    <h3 className="text-4xl py-1  text-center  font-semibold mt-5 ">Experience:</h3>
 
                 </div>
                 <div className="mt-5">

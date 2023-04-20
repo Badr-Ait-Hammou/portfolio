@@ -38,7 +38,7 @@ export default  function MyServices(){
                 <section className="min-h-screen">
 
                     <div className="mt-5 px-3">
-                        <h3 className="text-4xl py-1  text-center  font-burtons ">Services I Offer:</h3>
+                        <h3 className="text-4xl py-1  text-center  font-semibold">Services I Offer:</h3>
                         <Card  className="h-full">
 
                             <p className="text-md py-2  leading-8 text-center text-gray-800 font-semibold ">
@@ -56,7 +56,7 @@ export default  function MyServices(){
 
 
                     <div className="mt-7 px-3">
-                        <h3 className="text-4xl  py-2 text-center font-burtons mt-10 ">Frameworks And Languages I Use:</h3>
+                        <h3 className="text-4xl  py-2 text-center font-semibold mt-10 ">Frameworks And Languages I Use:</h3>
 
 
 
