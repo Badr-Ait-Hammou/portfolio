@@ -57,11 +57,11 @@ export default function Footer() {
                         <InputText placeholder="Email" className="p-inputtext-sm" value={email} onChange={(e) => setEmail(e.target.value)} />
                     </div>
                     <div className="p-inputgroup mb-2" style={{ width: '400px', fontSize: '14px' }}>
-                        <Button icon="pi pi-user" />
+                        <Button icon="pi pi-angle-double-right" />
                         <InputText placeholder="subject" className="p-inputtext-sm" value={subject} onChange={(e) => setSubject(e.target.value)} />
                     </div>
                     <div className="p-inputgroup mb-2" style={{ width: '400px', fontSize: '14px' }}>
-                        <Button icon="pi pi-user" />
+                        <Button icon="pi pi-ticket" />
                         <InputText placeholder="message" className="p-inputtext-sm" value={message} onChange={(e) => setMessage(e.target.value)} />
                     </div>
                     <div className="card flex flex-wrap justify-content-center gap-3 mt-3" >

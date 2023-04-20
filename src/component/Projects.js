@@ -7,10 +7,11 @@ import pokedex from "../images/pokedex.png";
 import csharpacc from "../images/csharpacceuil.png";
 import csharpproduit from "../images/csharpproduit.png";
 import nanopr from "../images/pr.png";
+import poko from "../images/pokedex2.png";
 
 
 export default  function Projects(){
-    const nanoacc = <img alt="logo" src={nanoaceuil}  height="10"  className="rounded-lg"></img>;
+    const po = <img alt="logo" src={poko}  height="10"  className="rounded-lg"></img>;
     const nanolog = <img alt="logo" src={nanologin}  height="10"  className="rounded-lg"></img>;
     const nanoprod = <img alt="logo" src={nanoproduit}  height="10"  className="rounded-lg"></img>;
     const csharpac = <img alt="logo" src={csharpacc}  height="10"  className="rounded-lg"></img>;
@@ -70,7 +71,7 @@ export default  function Projects(){
 
                     </Card>
                 </div>
-                <div className="w-full md:w-1/3 px-4 mt-5">
+                <div className="w-full  md:w-1/3 px-4 mt-5">
                     <Card
                         title="Para pharmacy App"
                         subTitle="C#"
@@ -81,11 +82,11 @@ export default  function Projects(){
 
                     </Card>
                 </div>
-                <div className="w-full md:w-1/3 px-4 mt-5">
+                <div className="w-full  md:w-1/3 px-4 mt-5">
                     <Card
                         title="Flutter Pokedex App"
                         subTitle="Dart"
-                        header={<div className="px-4 pt-4 " >{poked}</div>}
+                        header={<div className="px-4 pt-4 " >{po}</div>}
                         className="md:w-25rem"
                         style={{backgroundColor:'#F5F3F6E0'}}
                     >

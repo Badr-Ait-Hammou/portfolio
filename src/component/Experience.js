@@ -48,7 +48,7 @@ return(
                         </div>
                         <div  className="font-normal mt-2" >
                             <p>ZSMART -Marrakech</p>
-                            <p className="mt-2 font-semibold"> Design and development of a desktop application for "stock management". </p>
+                            <p className="mt-2 font-semibold"> Design and development of a desktop application for "Inventory management". </p>
 
                         </div>
 
