@@ -31,7 +31,7 @@ export default function Education() {
                             <img alt="logo" src={fst} height="20" width="80" className="p-mr-2"/>
                             </div>
                             <p className="text-center font-semibold mt-5" >
-                                I obtained my bachelor s degree in Computer Science from the<span className="text-teal-500"> FST </span>  University,</p>
+                                I obtained my bachelor s degree in Computer Science from  <span className="text-teal-500"> Sciences and technologies University </span>"FST",</p>
                             <p className="text-center font-semibold mt-5" >
                                 where I gained a solid foundation in programming languages, and algorithms.
                             </p>
