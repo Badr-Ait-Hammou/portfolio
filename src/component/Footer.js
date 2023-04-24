@@ -3,14 +3,10 @@ import { TiSocialLinkedin } from "react-icons/ti";
 import { AiFillTwitterCircle } from 'react-icons/ai';
 import { RiTelegramFill } from 'react-icons/ri';
 import "../styles/footer.css"
-
 import logo from "../images/whitelogo.svg"
 
 
 export default function Footer() {
-
-
-
 
 
     return (
