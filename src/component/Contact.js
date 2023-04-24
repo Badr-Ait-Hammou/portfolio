@@ -33,15 +33,15 @@ export default function Contact(){
 
     return (
         <div className="mx-8 mt-40"  style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-            <div className="p-inputgroup mb-2" style={{ width: '400px', fontSize: '14px' }}>
+            <div className="p-inputgroup mb-2 mt-2" style={{ width: '400px', fontSize: '14px' }}>
                 <Button icon="pi pi-user" />
                 <InputText placeholder="Email" className="p-inputtext-sm" value={email} onChange={(e) => setEmail(e.target.value)} />
             </div>
-            <div className="p-inputgroup mb-2" style={{ width: '400px', fontSize: '14px' }}>
+            <div className="p-inputgroup mb-2 mt-5" style={{ width: '400px', fontSize: '14px' }}>
                 <Button icon="pi pi-angle-double-right" />
                 <InputText placeholder="subject" className="p-inputtext-sm" value={subject} onChange={(e) => setSubject(e.target.value)} />
             </div>
-            <div className="p-inputgroup mb-2" style={{ width: '400px', fontSize: '14px' }}>
+            <div className="p-inputgroup mb-2 mt-5" style={{ width: '400px', fontSize: '14px' }}>
                 <Button icon="pi pi-ticket" />
                 <InputText placeholder="message" className="p-inputtext-sm" value={message} onChange={(e) => setMessage(e.target.value)} />
             </div>

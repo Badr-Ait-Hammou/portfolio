@@ -1,11 +1,9 @@
-import React, {useState} from "react";
-import { RiFacebookCircleFill } from "react-icons/ri";
+import React from "react";
 import { TiSocialLinkedin } from "react-icons/ti";
 import { AiFillTwitterCircle } from 'react-icons/ai';
 import { RiTelegramFill } from 'react-icons/ri';
 import "../styles/footer.css"
-import { InputText } from 'primereact/inputtext';
-import { Button } from 'primereact/button';
+
 import logo from "../images/whitelogo.svg"
 
 
