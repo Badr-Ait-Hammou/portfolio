@@ -39,6 +39,11 @@ export default function Navbar() {
             icon: 'pi pi-bolt',
             command: () => {navigate('/services') }
         },
+        {
+            label: 'Contact',
+            icon: 'pi pi-mobile',
+            command: () => {navigate('/contact') }
+        },
 
        
     ];
