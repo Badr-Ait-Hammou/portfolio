@@ -36,7 +36,7 @@ export default function Footer() {
                     <div className="text-center ">
                         <div className=" item text tex">
 
-                            <h3>Contact Me</h3>
+
                             <p>Feel free to reach out to me if you have any questions or if you'd like to work together on a project.</p>
                         </div>
 

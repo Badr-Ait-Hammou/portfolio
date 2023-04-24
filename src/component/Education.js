@@ -38,7 +38,7 @@ export default function Education() {
                                 <img alt="logo" src={emsi} height="20" width="80" className="p-mr-2"/>
                             </div>
                             <p className="text-center font-semibold mt-5" >
-                                I am closer to complete my engineering education at <span className="text-teal-500"> EMSI </span> School,
+                                I am closer to complete my engineering education at <span className="text-teal-500"> EMSI </span> ,
                             </p>
                             <p className="text-center font-semibold mt-5" >
                                 where I deepened my understanding of computer architecture,
