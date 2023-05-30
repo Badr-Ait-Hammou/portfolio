@@ -7,7 +7,7 @@ import bootstrapcertif from "../images/bootstraphonor.png"
 import mongodbcertif from "../images/mongodb.png"
 import cloudcertif from "../images/cloudcertif.png"
 import androidcertif from "../images/androidcertif.png"
-
+import "../styles/contact.css"
 
 
 export default function Certifications(){
@@ -23,8 +23,8 @@ export default function Certifications(){
 
 
 
-        <div>
-            <h3 className="text-4xl py-4 mt-5  text-center font-semibold ">Certifications:</h3>
+        <div className="font-semibold animated fadeInDown">
+            <h3 className="text-4xl py-4 mt-5  text-center font-burtons ">Certifications:</h3>
 
 
             <div className="flex flex-wrap mx-4">
@@ -49,7 +49,7 @@ export default function Certifications(){
                         title="DevOps,Cloud and Agile Foundations "
                         subTitle="Certificate of Specialization"
                         header={<div className="px-4 pt-4 " >{devops}</div>}
-                        className="md:w-25rem"
+                        className="md:w-25rem h-full"
                         style={{backgroundColor:'#F5F3F6E0'}}
                     >
                         <p className="m-0">
@@ -65,7 +65,7 @@ export default function Certifications(){
                         title="Android App Development  "
                         subTitle="Certificate of Specialization"
                         header={<div className="px-4 pt-4 " >{andr}</div>}
-                        className="md:w-25rem"
+                        className="md:w-25rem h-full"
                         style={{backgroundColor:'#F5F3F6E0'}}
                     >
                         <p className="m-0">
@@ -84,7 +84,7 @@ export default function Certifications(){
                         title="Front-End Web UI Frameworks and Tools: Bootstrap 4"
                         subTitle="Course Certificate"
                         header={<div className="px-4 pt-4 " >{bootstrap}</div>}
-                        className="md:w-25rem "
+                        className="md:w-25rem h-full"
                         style={{backgroundColor:'#F5F3F6E0'}}
                     >
                         <p className="m-0 justify-content-center">
@@ -99,7 +99,7 @@ export default function Certifications(){
                         title="Server-side Development with NodeJS, Express and MongoDB  "
                         subTitle="Course Certificate"
                         header={<div className="px-4 pt-4 " >{mongodb}</div>}
-                        className="md:w-25rem"
+                        className="md:w-25rem h-full"
                         style={{backgroundColor:'#F5F3F6E0'}}
                     >
                         <p className="m-0">

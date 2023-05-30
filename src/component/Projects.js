@@ -14,7 +14,7 @@ import allpharmacies from "../images/pharmacies.png";
 import restaurantsm from "../images/restauranthomesmall.png";
 
 import {Link} from "react-router-dom";
-
+import "../styles/contact.css"
 
 export default  function Projects(){
     const po = <img alt="logo" src={poko}  height="10"  className="rounded-lg"></img>;
@@ -29,8 +29,8 @@ export default  function Projects(){
     const rest = <img alt="logo" src={restaurantsm}  height="10"  className="rounded-lg"></img>;
 
     return(
-        <div>
-            <h3 className="text-4xl py-6  text-center  font-semibold ">Some Of My Projects:</h3>
+        <div className="font-semibold animated fadeInDown">
+            <h3 className="text-4xl py-6  text-center  font-burtons ">Some Of My Projects:</h3>
 
             <div className="flex flex-wrap mx-4">
                 <div className="w-full md:w-1/3 px-4 mt-5">
@@ -38,7 +38,7 @@ export default  function Projects(){
                         title="Nano Planete E_commerce App"
                         subTitle="Spring boot / Angular application"
                         header={<div className="px-4 pt-4 " >{nanopro}</div>}
-                        className="md:w-25rem "
+                        className="md:w-25rem h-full"
                         style={{backgroundColor:'#F5F3F6E0'}}
                     >
 
@@ -46,10 +46,10 @@ export default  function Projects(){
                 </div>
                 <div className="w-full md:w-1/3 px-4 mt-5">
                     <Card
-                        title="Products Page"
+                        title=" Products Page"
                         subTitle="Spring boot / Angular application"
                         header={<div className="px-4 pt-4 " >{nanoprod}</div>}
-                        className="md:w-25rem"
+                        className="md:w-25rem h-full"
                         style={{backgroundColor:'#F5F3F6E0'}}
                     >
 
@@ -57,10 +57,10 @@ export default  function Projects(){
                 </div>
                 <div className="w-full md:w-1/3 px-4 mt-5">
                     <Card
-                        title="Login Page"
+                        title=" Login Page"
                         subTitle="Spring boot / Angular application"
                         header={<div className="px-4 pt-4 " >{nanolog}</div>}
-                        className="md:w-25rem"
+                        className="md:w-25rem h-full"
                         style={{backgroundColor:'#F5F3F6E0'}}
                     >
 
@@ -74,7 +74,7 @@ export default  function Projects(){
                         title="Para pharmacy App"
                         subTitle="C#"
                         header={<div className="px-4 pt-4 " >{csharproduit}</div>}
-                        className="md:w-25rem "
+                        className="md:w-25rem h-full"
                         style={{backgroundColor:'#F5F3F6E0'}}
                     >
                         <Link
@@ -98,7 +98,7 @@ export default  function Projects(){
                         title="Para pharmacy App"
                         subTitle="C#"
                         header={<div className="px-4 pt-4 " >{csharpac}</div>}
-                        className="md:w-25rem"
+                        className="md:w-25rem h-full"
                         style={{backgroundColor:'#F5F3F6E0'}}
                     >
                         <Link
@@ -122,7 +122,7 @@ export default  function Projects(){
                         title="Flutter Pokedex App"
                         subTitle="Dart"
                         header={<div className="px-4 pt-4 " >{po}</div>}
-                        className="md:w-25rem"
+                        className="md:w-25rem h-full"
                         style={{backgroundColor:'#F5F3F6E0'}}
                     >
                         <Link
@@ -149,7 +149,7 @@ export default  function Projects(){
                         title="pharmacy Location App"
                         subTitle="Spring boot /React"
                         header={<div className="px-4 pt-4 " >{pharmacyhome}</div>}
-                        className="md:w-25rem "
+                        className="md:w-25rem h-full"
                         style={{backgroundColor:'#F5F3F6E0'}}
                     >
                         <Link
@@ -173,7 +173,7 @@ export default  function Projects(){
                         title="pharmacy Location App"
                         subTitle="Spring boot /React"
                         header={<div className="px-4 pt-4 " >{mappharmacy}</div>}
-                        className="md:w-25rem"
+                        className="md:w-25rem h-full"
                         style={{backgroundColor:'#F5F3F6E0'}}
                     >
                         <Link
@@ -197,7 +197,7 @@ export default  function Projects(){
                         title="pharmacy Location App"
                         subTitle="Spring boot /React"
                         header={<div className="px-4 pt-4 " >{pharmacies}</div>}
-                        className="md:w-25rem"
+                        className="md:w-25rem h-full"
                         style={{backgroundColor:'#F5F3F6E0'}}
                     >
                         <Link
@@ -223,7 +223,7 @@ export default  function Projects(){
                         title="Restaurant Management App"
                         subTitle="Spring boot /React"
                         header={<div className="px-4 pt-4 " >{rest}</div>}
-                        className="md:w-25rem"
+                        className="md:w-25rem h-full"
                         style={{backgroundColor:'#F5F3F6E0'}}
                     >
                         <Link

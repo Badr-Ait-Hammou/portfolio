@@ -12,6 +12,7 @@ import kotlin from "../images/kotlenicon.png"
 import dart from "../images/darticon.png"
 import dotnet from "../images/dotneticon.png"
 import native from "../images/nativeicon.png"
+import "../styles/contact.css"
 
 
 export default  function MyServices(){
@@ -29,14 +30,14 @@ export default  function MyServices(){
     const logodotnet = <img alt="logo" src={dotnet}   className="rounded-lg " style={{maxHeight:'60px',maxWidth:"60px" }}></img>;
 
     return(
-        <div >
+        <div className="font-semibold animated fadeInDown" >
 
 
             <main className=" bg-white px-10  md:px-20  mt-5 " >
                 <section className="min-h-screen">
 
                     <div className="mt-5 px-3">
-                        <h3 className="text-4xl py-1  text-center  font-semibold">Services I Offer :</h3>
+                        <h3 className="text-4xl py-1  text-center  font-burtons">Services I Offer :</h3>
                         <Card  className="h-full">
 
                             <p className="text-md py-2  leading-8 text-center text-gray-800 font-semibold ">
@@ -54,7 +55,7 @@ export default  function MyServices(){
 
 
                     <div className="mt-7 px-3">
-                        <h3 className="text-4xl  py-2 text-center font-semibold mt-10 ">Frameworks And Languages I Use:</h3>
+                        <h3 className="text-4xl  py-2 text-center font-burtons mt-10 ">Frameworks And Languages I Use:</h3>
 
 
 

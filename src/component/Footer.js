@@ -1,9 +1,11 @@
 import React from "react";
 import { TiSocialLinkedin } from "react-icons/ti";
 import { AiFillTwitterCircle } from 'react-icons/ai';
-import { RiTelegramFill } from 'react-icons/ri';
 import "../styles/footer.css"
 import logo from "../images/whitelogo.svg"
+import {Link} from "react-router-dom";
+import {AiOutlineGithub} from "react-icons/ai";
+
 
 
 export default function Footer() {
@@ -33,12 +35,15 @@ export default function Footer() {
                         </div>
 
                         <div className="col item social">
-                            <a ><RiTelegramFill/></a>
+                            <Link
+                                style={{ textDecoration: "none",fontFamily:"better" }}
+                                to={`https://github.com/Badr-Ait-Hammou`}
+                            ><AiOutlineGithub/></Link>
                             <a href="https://www.linkedin.com/in/badr-ait-hammou-24357b233/"><TiSocialLinkedin/></a>
                             <a href="https://twitter.com/Badr66270786"><AiFillTwitterCircle/></a>
                         </div>
                     </div>
-                    <a className="text-center font-light mt-2"  href="https://github.com/Badr-Ait-Hammou">B.A.H © 2023</a>
+                    <a className="text-center font-light mt-2"  href="https://github.com/Badr-Ait-Hammou">Developed & Designed By © AIT_HAMMOU</a>
                 </div>
 
 

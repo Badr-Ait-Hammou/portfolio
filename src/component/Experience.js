@@ -1,11 +1,7 @@
 import React from 'react';
-import { Timeline } from 'primereact/timeline';
 import { Card } from 'primereact/card';
-import { Button } from 'primereact/button';
-import logo from "../images/logo.svg"
-import fst from "../images/fst.png";
-import emsi from "../images/emsi1.png";
 
+import "../styles/contact.css"
 
 
 
@@ -15,11 +11,11 @@ return(
     <div >
 
 
-        <main className=" bg-white px-10  md:px-20  mt-5 " >
+        <main className=" bg-white px-10  md:px-20  mt-5 font-semibold animated fadeInDown" >
             <section className="min-h-screen">
 
-                <div className="mt-5">
-                    <h3 className="text-4xl py-1  text-center  font-semibold mt-5 ">Experience:</h3>
+                <div className="mt-5 font-semibold animated fadeInDown">
+                    <h3 className="text-4xl py-1  text-center  font-burtons mt-5 ">Experience:</h3>
 
                 </div>
                 <div className="mt-5">

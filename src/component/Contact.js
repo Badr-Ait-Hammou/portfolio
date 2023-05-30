@@ -80,29 +80,58 @@ export default function Contact(){
     );
 };
 */
-import React from "react";
+
+import React,{useRef} from "react";
 import emailjs from "@emailjs/browser";
 import { Button } from 'primereact/button';
 import { InputText } from 'primereact/inputtext';
 import { InputTextarea } from "primereact/inputtextarea";
+import "../styles/contact.css"
+import { Toast } from 'primereact/toast';
+
 
 
 export default function Contact() {
 
+    const toast = useRef(null);
+
+
+
+
+    const showSuccess = () => {
+        toast.current.show({severity:'success', summary: 'Success', detail:'Message Sent Successfully', life: 3000});
+    }
+
+    const showError = () => {
+        toast.current.show({severity:'error', summary: 'Error', detail:'One of the Input Fields is Empty', life: 3000});
+    }
 
     const sendEmail = (e) => {
         e.preventDefault();
-        emailjs
-            .sendForm(
-                "service_525rkkb",
-                "template_zhm3n8t",
-                "#fm",
-                "-D16ZaD03BCicE0N1"
-            )
+
+        // Get the form inputs
+        const userName = document.querySelector('input[name="user_name"]').value;
+        const userEmail = document.querySelector('input[name="user_email"]').value;
+        const message = document.querySelector('textarea[name="message"]').value;
+
+        // Check if any of the inputs are empty
+        if (!userName || !userEmail || !message) {
+            console.log("Please fill in all the fields.");
+            showError();
+            return;
+        }
+
+        emailjs.sendForm(
+            "service_525rkkb",
+            "template_zhm3n8t",
+            "#fm",
+            "-D16ZaD03BCicE0N1"
+        )
             .then(
                 (result) => {
                     console.log(result.text);
                     console.log("message sent");
+                    showSuccess();
                     e.target.reset();
                 },
                 (error) => {
@@ -114,24 +143,25 @@ export default function Contact() {
 
     return (
                 <form id="fm" className="fm" onSubmit={sendEmail}>
+                    <Toast ref={toast} />
                     <div className="mx-8 "  style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
 
                         <div className="mt-7">
-                            <h3 className="text-4xl py-1  text-center  font-semibold ">Contact Me:</h3>
+                            <h3 className="text-4xl py-1 text-center font-burtons animated fadeInDown">Contact Me:</h3>
                         </div>
-                        <div className="p-inputgroup mb-2 mt-24" style={{ width: '400px', fontSize: '14px' }}>
+                        <div className="p-inputgroup mb-2 mt-24 font-semibold animated fadeInDown" style={{ width: '400px', fontSize: '14px' }}>
                             <Button icon="pi pi-user" />
-                            <InputText type="text" name="user_name"  placeholder="Nom..." />
+                            <InputText type="text" name="user_name"  placeholder="Your Name" />
                         </div>
-                        <div className="p-inputgroup mb-2 mt-5" style={{ width: '400px', fontSize: '14px' }}>
+                        <div className="p-inputgroup mb-2 mt-5 font-semibold animated fadeInDown" style={{ width: '400px', fontSize: '14px' }}>
                             <Button icon="pi pi-angle-double-right" />
-                            <InputText  type="email" name="user_email" placeholder="Email..."  />
+                            <InputText  type="email" name="user_email" placeholder="Email"  />
                         </div>
-                        <div className="p-inputgroup mb-2 mt-5" style={{ width: '400px', fontSize: '14px' }}>
+                        <div className="p-inputgroup mb-2 mt-5 font-semibold animated fadeInDown" style={{ width: '400px', fontSize: '14px' }}>
                             <Button icon="pi pi-ticket" />
-                            <InputTextarea  name="message" cols="5" rows="5" placeholder="Message..."  />
+                            <InputTextarea  name="message" cols="5" rows="5" placeholder="Message"  />
                         </div>
-                        <div className="card flex flex-wrap justify-content-center gap-3 mt-10">
+                        <div className=" gap-3 mt-10 font-semibold animated fadeInDown">
                             <Button type="submit" label="Send" value="Send" icon="pi pi-check"  />
                         </div>
                     </div>
