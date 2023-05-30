@@ -12,14 +12,12 @@ import kotlin from "../images/kotlenicon.png"
 import dart from "../images/darticon.png"
 import dotnet from "../images/dotneticon.png"
 import native from "../images/nativeicon.png"
-import tailwind from "../images/nativeicon.png"
 
 
 export default  function MyServices(){
     const csharplogo = <img alt="logo" src={csharp}   className="rounded-lg " style={{maxHeight:'60px',maxWidth:"60px" }}></img>;
     const iconreact = <img alt="logo" src={reacti}   className="rounded-lg " style={{maxHeight:'60px',maxWidth:"60px" }}></img>;
     const logodjango = <img alt="logo" src={django}   className="rounded-lg " style={{maxHeight:'60px',maxWidth:"60px" }}></img>;
-    const logotailwind = <img alt="logo" src={tailwind}   className="rounded-lg " style={{maxHeight:'60px',maxWidth:"60px" }}></img>;
     const logospring = <img alt="logo" src={spring}   className="rounded-lg " style={{maxHeight:'60px',maxWidth:"60px" }}></img>;
     const logoflutter = <img alt="logo" src={flutter}   className="rounded-lg " style={{maxHeight:'60px',maxWidth:"60px" }}></img>;
     const logoandroid = <img alt="logo" src={android}   className="rounded-lg " style={{maxHeight:'60px',maxWidth:"60px" }}></img>;

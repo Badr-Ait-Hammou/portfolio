@@ -19,8 +19,6 @@ export default function Footer() {
                     height="20"
                     width="70"
                     className="p-mr-2"
-
-
                 /></div>
 
 
@@ -35,7 +33,7 @@ export default function Footer() {
                         </div>
 
                         <div className="col item social">
-                            <a href="#"><RiTelegramFill/></a>
+                            <a ><RiTelegramFill/></a>
                             <a href="https://www.linkedin.com/in/badr-ait-hammou-24357b233/"><TiSocialLinkedin/></a>
                             <a href="https://twitter.com/Badr66270786"><AiFillTwitterCircle/></a>
                         </div>
