@@ -6,6 +6,7 @@ import agilecertif from "../images/agile.png"
 import bootstrapcertif from "../images/bootstraphonor.png"
 import mongodbcertif from "../images/mongodb.png"
 import cloudcertif from "../images/cloudcertif.png"
+import androidcertif from "../images/androidcertif.png"
 
 
 
@@ -16,6 +17,7 @@ export default function Certifications(){
     const bootstrap = <img alt="logo" src={bootstrapcertif}  height="10"  className="rounded-lg"></img>;
     const mongodb = <img alt="logo" src={mongodbcertif}  height="10"  className="rounded-lg"></img>;
     const cloud = <img alt="logo" src={cloudcertif}  height="10"  className="rounded-lg"></img>;
+    const andr = <img alt="logo" src={androidcertif}  height="10"  className="rounded-lg"></img>;
 
     return(
 
@@ -57,21 +59,23 @@ export default function Certifications(){
                         </p>
                     </Card>
                 </div>
+
                 <div className="w-full md:w-1/3 px-4 mt-5">
                     <Card
-                        title="Introduction to Agile Development and Scrum"
-                        subTitle="Course Certificate"
-                        header={<div className="px-4 pt-4 " >{agile}</div>}
+                        title="Android App Development  "
+                        subTitle="Certificate of Specialization"
+                        header={<div className="px-4 pt-4 " >{andr}</div>}
                         className="md:w-25rem"
                         style={{backgroundColor:'#F5F3F6E0'}}
                     >
                         <p className="m-0">
-                            Through this course, I gained a strong understanding of Scrum principles and best practices,
-                            and I am confident in my ability to lead and participate in Scrum teams.
-                            I also gained practical experience with popular Scrum tools like Jira.
+                            Through this course, I gained a strong understanding of Android app development principles and best practices.
+                            I am confident in my ability to create dynamic and user-friendly mobile applications for the Android platform.
+                            I have hands-on experience in UI design, data management, and integration of various APIs and libraries.
                         </p>
                     </Card>
                 </div>
+
             </div>
 
             <div className="flex flex-wrap mx-4">
