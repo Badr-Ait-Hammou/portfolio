@@ -123,6 +123,20 @@ export default function Certifications(){
                             as well as to choose the appropriate cloud model and provider for a given use case.
                         </p>
                     </Card>
+                </div>  <div className="w-full md:w-1/3 px-4 mt-5">
+                    <Card
+                        title="Introduction to Agile Development and Scrum"
+                        subTitle="Course Certificate"
+                        header={<div className="px-4 pt-4 " >{agile}</div>}
+                        className="md:w-25rem h-full"
+                        style={{backgroundColor:'#F5F3F6E0'}}
+                    >
+                        <p className="m-0">
+                            Through this course, I gained a strong understanding of Scrum principles and best practices,
+                            and I am confident in my ability to lead and participate in Scrum teams.
+                            I also gained practical experience with popular Scrum tools like Jira.
+                        </p>
+                    </Card>
                 </div>
             </div>
 
