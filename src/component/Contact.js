@@ -99,11 +99,11 @@ export default function Contact() {
 
 
     const showSuccess = () => {
-        toast.current.show({severity:'success', summary: 'Success', detail:'Message Sent Successfully', life: 3000});
+        toast.current.show({severity:'success', summary: 'Success', detail:'Message Sent Successfully',className:"font-burtons ", life: 3000});
     }
 
     const showError = () => {
-        toast.current.show({severity:'error', summary: 'Error', detail:'One of the Input Fields is Empty', life: 3000});
+        toast.current.show({severity: 'warn', summary: 'Warning', detail:'One of the Input Fields is Empty', className:"font-burtons",life: 3000});
     }
 
     const sendEmail = (e) => {
@@ -143,7 +143,7 @@ export default function Contact() {
 
     return (
                 <form id="fm" className="fm" onSubmit={sendEmail}>
-                    <Toast ref={toast} />
+                    <Toast position="top-center"  ref={toast} />
                     <div className="mx-8 "  style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
 
                         <div className="mt-7">
