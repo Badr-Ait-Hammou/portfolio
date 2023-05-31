@@ -12,7 +12,7 @@ export default function Footer() {
 
 
     return (
-        <div className="footer-dark" style={{marginTop:"40px"}}>
+        <div className="footer-dark" style={{marginTop:"15px"}}>
             <footer>
                 <div  style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                     <img
@@ -28,11 +28,7 @@ export default function Footer() {
                 <div style={{ display: 'grid', justifyContent: 'center' }}>
 
                     <div className="text-center ">
-                        <div className=" item text tex">
 
-
-                            <p>Feel free to reach out to me if you have any questions or if you'd like to work together on a project.</p>
-                        </div>
 
                         <div className="col item social">
                             <Link
@@ -43,7 +39,7 @@ export default function Footer() {
                             <a href="https://twitter.com/Badr66270786"><AiFillTwitterCircle/></a>
                         </div>
                     </div>
-                    <a className="text-center font-light mt-2"  href="https://github.com/Badr-Ait-Hammou">Developed & Designed By © AIT_HAMMOU</a>
+                    <a className="text-center font-light mt-2 font-burtons copyright"  href="https://github.com/Badr-Ait-Hammou">Developed & Designed By © AIT_HAMMOU</a>
                 </div>
 
 

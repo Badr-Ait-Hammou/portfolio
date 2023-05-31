@@ -50,7 +50,7 @@ export default function Navbar() {
     const style = {
         backgroundColor: 'rgba(245,243,246,0.88)',
         color: '#230202',
-        borderRadius:"20px",
+        borderRadius:"10px",
         justifyContent: 'left'
     };
 
