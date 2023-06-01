@@ -26,6 +26,12 @@ export default function Home() {
 
     return (
         <div className="font-semibold animated fadeInDown">
+            <div>
+                <div className="starsec"></div>
+                <div className="starthird"></div>
+                <div className="starfourth"></div>
+                <div className="starfifth"></div>
+            </div>
             <div className="bg-black text-center text-white  ">
                 <Swiper
                     slidesPerView={1}

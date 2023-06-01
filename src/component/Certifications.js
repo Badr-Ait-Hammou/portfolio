@@ -24,6 +24,7 @@ export default function Certifications(){
 
 
         <div className="font-semibold animated fadeInDown">
+
             <h3 className="text-4xl py-4 mt-5  text-center font-burtons ">Certifications:</h3>
 
 

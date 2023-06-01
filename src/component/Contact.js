@@ -143,6 +143,12 @@ export default function Contact() {
 
     return (
                 <form id="fm" className="fm" onSubmit={sendEmail}>
+                    <div>
+                        <div className="starsec"></div>
+                        <div className="starthird"></div>
+                        <div className="starfourth"></div>
+                        <div className="starfifth"></div>
+                    </div>
                     <Toast position="top-center"  ref={toast} />
                     <div className="mx-8 "  style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
 
