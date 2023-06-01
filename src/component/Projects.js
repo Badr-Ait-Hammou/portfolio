@@ -154,7 +154,7 @@ export default  function Projects(){
                     >
                         <Link
                             style={{ textDecoration: "none", color: "black",fontFamily:"better" }}
-                            to={`https://github.com/Badr-Ait-Hammou/localisation_pharmacie_front`}
+                            to={`https://localisation-pharmacie-front.vercel.app/`}
                         >
                             <div style={{ display: "flex", justifyContent: "center" }}>
                                 <Button
@@ -178,7 +178,7 @@ export default  function Projects(){
                     >
                         <Link
                             style={{ textDecoration: "none", color: "black",fontFamily:"better" }}
-                            to={`https://github.com/Badr-Ait-Hammou/localisation_pharmacie_front`}
+                            to={`https://localisation-pharmacie-front.vercel.app/`}
                         >
                             <div style={{ display: "flex", justifyContent: "center" }}>
                                 <Button
@@ -202,7 +202,7 @@ export default  function Projects(){
                     >
                         <Link
                             style={{ textDecoration: "none", color: "black",fontFamily:"better" }}
-                            to={`https://github.com/Badr-Ait-Hammou/localisation_pharmacie_front`}
+                            to={`https://localisation-pharmacie-front.vercel.app/`}
                         >
                             <div style={{ display: "flex", justifyContent: "center" }}>
                                 <Button
