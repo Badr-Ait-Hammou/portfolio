@@ -171,7 +171,7 @@ export default  function Projects(){
                 <div className="w-full  md:w-1/3 px-4 mt-5">
                     <Card
                         title="pharmacy Location App"
-                        subTitle="Spring boot /React"
+                        subTitle="Login User : test@gmail.com / Pwd : test"
                         header={<div className="px-4 pt-4 " >{mappharmacy}</div>}
                         className="md:w-25rem h-full"
                         style={{backgroundColor:'#F5F3F6E0'}}
@@ -195,7 +195,7 @@ export default  function Projects(){
                 <div className="w-full  md:w-1/3 px-4 mt-5">
                     <Card
                         title="pharmacy Location App"
-                        subTitle="Spring boot /React"
+                        subTitle="Login Admin : badr@gmail.com / Pwd : admin@123"
                         header={<div className="px-4 pt-4 " >{pharmacies}</div>}
                         className="md:w-25rem h-full"
                         style={{backgroundColor:'#F5F3F6E0'}}
@@ -204,6 +204,7 @@ export default  function Projects(){
                             style={{ textDecoration: "none", color: "black",fontFamily:"better" }}
                             to={`https://localisation-pharmacie-front.vercel.app/`}
                         >
+
                             <div style={{ display: "flex", justifyContent: "center" }}>
                                 <Button
                                     label="Check it out"
