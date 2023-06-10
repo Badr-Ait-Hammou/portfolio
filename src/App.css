@@ -74,3 +74,65 @@ a {
         transform: translateY(-2000px);
     }
 }
+.sale-logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #0ac9c3;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    animation: pulse 2s infinite;
+}
+
+.sale-logo2 {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #e5124a;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    animation: pulse 2s infinite;
+}
+.sale-logo3 {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #5fc26b;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    animation: pulse 2s infinite;
+}
+.sale-logo4 {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #2688f6;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+

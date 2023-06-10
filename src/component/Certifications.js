@@ -49,9 +49,14 @@ export default function Certifications(){
                     <Card
                         title="DevOps,Cloud and Agile Foundations "
                         subTitle="Certificate of Specialization"
-                        header={<div className="px-4 pt-4 " >{devops}</div>}
+                        header={
+                            <div className="px-4 pt-4 relative">
+                                {devops}
+                                <div className="sale-logo">RECENT</div>
+                            </div>
+                        }
                         className="md:w-25rem h-full"
-                        style={{backgroundColor:'#F5F3F6E0'}}
+                        style={{ backgroundColor: '#F5F3F6E0' }}
                     >
                         <p className="m-0">
                             Through this course, I gained a strong understanding of DevOps principles and best practices,
@@ -65,7 +70,9 @@ export default function Certifications(){
                     <Card
                         title="Android App Development  "
                         subTitle="Certificate of Specialization"
-                        header={<div className="px-4 pt-4 " >{andr}</div>}
+                        header={<div className="px-4 pt-4 relative " >{andr}
+                            <div className="sale-logo">RECENT</div>
+                    </div>}
                         className="md:w-25rem h-full"
                         style={{backgroundColor:'#F5F3F6E0'}}
                     >

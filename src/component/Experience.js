@@ -22,6 +22,7 @@ return(
                     <Card  >
                         <div  className="font-extrabold" >
                         <p>Final Course Project Internship (PFE)</p>
+
                         </div>
                         <div>
                         <p className="mt-2 font-light">April 2022--Jun 2022</p>
@@ -53,14 +54,17 @@ return(
 
                 <div className="mt-5">
                     <Card  >
-                        <div  className="font-extrabold" >
+                        <div  className="font-extrabold relative" >
                             <p>Summer Course Internship </p>
+                            <div className="sale-logo4">Internship</div>
+
                         </div>
                         <div>
-                            <p className="mt-2 font-light"> July 2023--August 2023</p>
+                            <p className="mt-2 font-light "> July 2023--August 2023</p>
+
                         </div>
                         <div  className="font-normal mt-2" >
-                            <p>******</p>
+                            <p>M_INNOVATION Marrakech</p>
                             <p className="mt-2 font-semibold"> ***** </p>
 
                         </div>
