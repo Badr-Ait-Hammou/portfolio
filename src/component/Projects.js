@@ -32,7 +32,7 @@ export default  function Projects(){
                         title="pharmacy Location App"
                         subTitle="Spring boot /React"
                         header={<div className="px-4 pt-4 relative" >{pharmacyhome}
-                            <div className="sale-logo3">Finished</div>
+                            <div className="sale-logo3" style={{backgroundColor:"royalblue"}}>Deployed</div>
                     </div>}
                         className="md:w-25rem h-full"
                         style={{backgroundColor:'#F5F3F6E0'}}
@@ -58,7 +58,7 @@ export default  function Projects(){
                         title="pharmacy Location App"
                         subTitle="Existing user account :test@gmail.com / PWD:test"
                         header={<div className="px-4 pt-4 relative" >{mappharmacy}
-                            <div className="sale-logo3">Finished</div>
+                            <div className="sale-logo3" style={{backgroundColor:"royalblue"}}>Deployed</div>
                     </div>}
                         className="md:w-25rem h-full"
                         style={{backgroundColor:'#F5F3F6E0'}}
@@ -84,7 +84,7 @@ export default  function Projects(){
                         title="pharmacy Location App"
                         subTitle="the app is still in_development "
                         header={<div className="px-4 pt-4 relative" >{pharmacies}
-                            <div className="sale-logo3">Finished</div>
+                            <div className="sale-logo3" style={{backgroundColor:"royalblue"}}>Deployed</div>
                     </div>}
                         className="md:w-25rem h-full"
                         style={{backgroundColor:'#F5F3F6E0'}}

@@ -167,7 +167,7 @@ export default function Contact() {
                             <Button icon="pi pi-ticket" />
                             <InputTextarea  name="message" cols="5" rows="5" placeholder="Message"  />
                         </div>
-                        <div className=" gap-3 mt-10 font-semibold animated fadeInDown">
+                        <div className=" gap-3 mt-10 mb-3 font-semibold animated fadeInDown">
                             <Button type="submit" label="Send" value="Send" icon="pi pi-check"  />
                         </div>
                     </div>
