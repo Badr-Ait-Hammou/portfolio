@@ -44,6 +44,12 @@ export default function Navbar() {
             icon: 'pi pi-mobile',
             command: () => {navigate('/contact') }
         },
+        {
+            label: 'Recommendations',
+            icon: 'pi pi-star-fill',
+            command: () => {navigate('/certificats') }
+        },
+
 
        
     ];
