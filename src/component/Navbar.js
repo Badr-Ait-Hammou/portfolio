@@ -4,6 +4,7 @@ import {useNavigate} from "react-router-dom";
 import logo from "../images/logo.svg"
 import React from 'react';
 import { Menubar } from 'primereact/menubar';
+import resume from "../images/resume.pdf"
 
 export default function Navbar() {
     const navigate = useNavigate();
@@ -33,6 +34,7 @@ export default function Navbar() {
             label: 'Experience',
             icon: 'pi pi-spin pi-spinner',
             command: () => {navigate('/experience') }
+
         },
         {
             label: 'My Services',
@@ -45,9 +47,24 @@ export default function Navbar() {
             command: () => {navigate('/contact') }
         },
         {
-            label: 'Recommendations',
-            icon: 'pi pi-star-fill',
-            command: () => {navigate('/certificats') }
+            label: 'More',
+            icon: 'pi pi-plus',
+
+            items: [
+                {
+                    label: 'Recommendations',
+                    icon: 'pi pi-star-fill',
+                    command: () => {navigate('/certificats') },
+                },
+                {
+                    label: 'Resume',
+                    icon: 'pi pi-fw pi-file-pdf',
+                    command: () => {
+                        window.open(resume, '_blank');
+                    }
+                }
+            ]
+
         },
 
 
