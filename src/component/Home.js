@@ -87,8 +87,8 @@ export default function Home() {
                 </section>
                 <Card  >
                     <p className="text-center font-medium animated fadeInDown " >
-                        AIT HAMMOU Badr, a <span className="text-teal-500 font-burtons"> Software Engineering Student. </span> I have got my bachelor's degree from  <span className="text-teal-500 font-burtons"> Sciences and technologies University 'FST' </span>in 2022.
-                        During my time at university, I specialized in computer science and gained a lot of <span className="text-teal-500 font-burtons"> skills and knowledge </span>  related to software development,
+                        AIT HAMMOU Badr, <span className="text-teal-500 font-burtons"> Software Engineering Student. </span> I have got my bachelor's degree from  <span className="text-teal-500 font-burtons"> Sciences and technologies University 'FST' </span>in 2022.
+                        During my time at the university, I specialized in computer science and I gained a lot of <span className="text-teal-500 font-burtons"> skills and knowledge </span>  related to software development,
                         programming languages, data analysis, and much more.
                         I'm really passionate about technology and how it can be used to solve complex problems. That's why I'm so excited to be continuing my education at <span className="text-teal-500 font-burtons"> EMSI </span> School, where I have just started pursuing  <span className="text-teal-500 font-burtons"> my software engineering degree </span> in 2023.</p>
                         <p className="text-center font-medium  animated fadeInDown" >
