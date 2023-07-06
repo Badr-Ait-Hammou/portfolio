@@ -56,7 +56,7 @@ export default  function Projects(){
                 <div className="w-full  md:w-1/3 px-4 mt-5">
                     <Card
                         title="pharmacy Location App"
-                        subTitle="Existing user account :test@gmail.com / PWD:test"
+                        subTitle="Existing user account :user@gmail.com / PWD:0000"
                         header={<div className="px-4 pt-4 relative" >{mappharmacy}
                             <div className="sale-logo3" style={{backgroundColor:"royalblue"}}>Deployed</div>
                     </div>}
